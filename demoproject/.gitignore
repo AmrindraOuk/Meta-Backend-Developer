@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files
+*.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Secret keys
+*.secret_key
+
+# Environment variables
+.env
+
+# IDE files
+*.idea/
+.vscode/
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+
+# Log files
+*.log
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Django migrations
+**/migrations/
+
+# Local settings file
+**/local_settings.py
+
+# macOS specific files
+.DS_Store
