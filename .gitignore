@@ -1,0 +1,111 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+bin/
+lib/
+lib64/
+include/
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+
+# If you are using PostgreSQL, MySQL, or other databases
+*.pgdata
+*.mysql
+*.db
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Local environment settings
+.env
+.env.*
+!example.env
+
+# macOS-specific files
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code extension
+.vscode-server/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Thumbnails
+*_thumb.*
+
+# Django extensions
+*.direnv
+*envs/*
+*env.d/*
+
+# Static and media files
+staticfiles/
+mediafiles/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# pipenv
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
